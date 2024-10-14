@@ -1,0 +1,116 @@
+.dashboard {
+    flex-grow: 1;
+    background: linear-gradient(to right, #0E1920, #0E1920 70%);
+}
+
+.T1 {
+    font-size: 40px;
+    font-weight: 800;
+    background: linear-gradient( to right, rgba(238, 16, 176, 1) 10%, rgba(14, 158, 239, 0.92) 90%); 
+    background-clip: text;
+    color: transparent;
+    margin-top: 50px;
+    margin-left: 26.6px;
+}
+
+/* ------------------- Phần dashboard Menu --------------------- */
+.DashBoard-menu {
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 26.6px;
+}
+
+.Menu-part div,
+.Library-part div,
+.Play-list-part div,
+.General-part div {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Menu,
+.Library,
+.Play-list,
+.General {
+    font-size: 20px;
+    font-weight: 400;
+    color: #EE10B0;
+    opacity: 60%;
+}
+
+.Menu-part div i,
+.Library-part div i,
+.Play-list-part div i,
+.General-part div i {
+    width: 18.75px;
+    height: 18.75px;
+}
+.Menu-part div p a,
+.Library-part div p a,
+.Play-list-part div p a,
+.General-part div p a {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* ------------------- Phần DashBoard-Lirary --------------------- */
+.DashBoard-Library {
+    color: #FFFFFF;
+    margin-top: 35px;
+    margin-left: 26.6px;
+}
+/* ------------------- Phần DashBoard-Playlist and Favorite --------------------- */
+.DashBoard-Playlist {
+    color: #FFFFFF;
+    margin-top: 35px;
+    margin-left: 26.6px;
+}
+.Add-playlist {
+    color: #0E9EEF !important;
+}
+/* ------------------- Phần Dashboard-general --------------------- */
+.DashBoard-general {
+    color: #FFFFFF;
+    margin-top: 35px;
+    margin-left: 26.6px;
+}
+
+.Logout {
+    color: #EE10B0 !important;
+}
+
+/* -------------------Hover--------------- */
+.Border {
+    width: 230px;
+    height: 42px;
+    display: inline-block;
+    padding: 5px 15px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFF;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    transition: all 0.3s ease;   
+}
+
+.Border:hover {
+    border: 1.12px solid #FFFFFF;
+    width: 230px;
+    height: 42px;
+    border-radius: 9px;
+    opacity: 70%;
+    background-color:#FF26C2;
+    cursor: pointer;
+    color:  #FFFFFF; 
+    box-shadow: 0 0 8px 3px #ff00ff;
+}
+
+.Logout:hover {
+    color:  #FFFFFF !important;
+}

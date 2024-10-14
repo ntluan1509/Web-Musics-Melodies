@@ -1,0 +1,107 @@
+.footer {
+    background-image: url(../image/footer/background/backgroundfooter_cut.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.footer-content {
+    padding: 200px 0px 30px 0px;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.footer-content-details {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.left-footer-content {
+    margin-top: 20px;
+    padding:0;
+}
+
+.left-footer-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.left-footer-content p {
+    font-size: 20px;
+    font-weight: 600;
+    word-wrap: break-word;
+    padding-right: 0px;
+    padding-top: 5px;
+    text-align: justify;
+    width: 100%;
+    /* Điều chỉnh độ rộng của đoạn văn bản */
+    margin: 0 auto;
+    /* Căn giữa đoạn văn bản trong trang */
+}
+
+.left-footer-content span {
+    color: #EE10B0;
+    font-weight: 700;
+}
+
+.left-footer-content a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #0E9EEF;
+}
+
+.table_content {
+    border-collapse: separate;
+    /* Đảm bảo các ô không bị gộp lại */
+    border-spacing: 10px;
+    /* Khoảng cách giữa các ô theo chiều dọc */
+    width: 80%;
+    padding-left:20px;
+    margin: 5px;
+}
+
+.table_content th {
+    border-bottom: 3px solid hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 0px 12px 0 12px;
+    font-size: 36px;
+}
+
+.table_content td {
+    font-size: 24px;
+    font-weight: 500;
+    word-wrap: break-word;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.table_content a {
+    color: hsl(0, 0%, 100%);
+}
+
+.contact {
+    place-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.Logo {
+    padding: 10px 40px 0px 40px;
+    position: center;
+    font-size: 43px;
+    font-weight: 700;
+    background: linear-gradient(to right, #EE10B0, #0E9EEF);
+    /* Màu gradient từ trái sang phải */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+    padding: 130px 10px 50px 10px;
+}

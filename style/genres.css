@@ -1,0 +1,55 @@
+.music-genres-display {
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+    margin-top: 30px ;
+    align-items: center;
+}
+
+.music-genres-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 50px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.genres-card {
+    font-family: "Just Another Hand", cursive;
+    position: relative;
+    width: 340px;
+    height: 220px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #3c3c3c;
+}
+
+/* Image in the Card */
+.genres-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+/* Text Overlay */
+.overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.overlay h1 {
+    width: 200px;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+}
+
+/* Optional - Add Border */
+.card {
+    border: 5px solid #4a3d4d;
+}

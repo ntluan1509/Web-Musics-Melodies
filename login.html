@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/login.css">
+    <script defer src="login.js"></script>
+    <title> Web Melodies Login</title>
+
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <img src="image/logo-no-background 1.png" alt="Melodies Logo">
+            <h2>Melodies</h2>
+        </div>
+        <h3>Login To Continue</h3>
+        <form class="login-form">
+            <div class="input-group">
+                <input type="email" placeholder="E-Mail" id="email" required>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Password" id="password" required>
+                <span class="toggle-password" onclick="togglePasswordVisibility()">👁️</span>
+            </div>
+            <a href="#" class="forgot-password">Forgot password &gt;</a>
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+        <div class="social-login">
+            <button class="google-login"> Google Login</button>
+            <button class="facebook-login"> Facebook Login</button>
+        </div>
+    </div>
+</body>
+</html>

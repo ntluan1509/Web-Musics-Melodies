@@ -1,0 +1,197 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 9;
+    margin: 26px 20px 0px 340px;
+    z-index: 1000;
+    opacity: 0.90; 
+    background: linear-gradient(90deg, #005ac0af 0%, #0a53a789 40%, rgba(17, 114, 226, 0.144) 100%);
+    border-radius: 10px;
+}
+
+.album-detail {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.album-header {
+    background: linear-gradient(90deg, #1171E2 0%, rgba(127, 184, 211, 0.02) 50%, rgba(63, 79, 86, 0) 100%);
+    border-radius: 10px;
+    height: 450px;
+    box-shadow: 0px 9px 6px 1px rgba(0, 0, 0, 0.36);
+    -webkit-box-shadow: 0px 9px 6px 1px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 9px 6px 1px rgba(0, 0, 0, 0.36);
+}
+
+.menu-album {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+}
+
+.group-menu {
+    display: flex;
+    margin: 0;
+    gap: 20px;
+    padding-left: 600px;
+}
+
+.group-menu img {
+    padding-left: 40px;
+}
+
+.group-menu p {
+    margin: 0px;
+    padding: 20px 0px 20px 0;
+    color: white;
+    font-size: 24px;
+    font-family: Vazirmatn;
+    font-weight: 600;
+}
+
+.group-menu p:first-child {
+    text-shadow:
+        -1px -1px 0 #000,
+        /* Tạo viền đen */
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        2px 2px 3px rgba(0, 0, 0, 0.5);
+    /* Tạo bóng đổ */
+}
+
+.trendingmusic {
+    display: flex;
+    gap: 56px;
+    padding-left: 43px;
+    padding-right: 43px;
+}
+
+.banner-trending-music {
+    width: 268px;
+    height: 268px;
+    box-shadow: 7px 9px 4px rgba(0, 0, 0, 0.35);
+    border-radius: 10px
+}
+
+.trendingmusic h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.trendingmusic h2 span {
+    color: #EE10B0;
+}
+
+.trending-music-content {
+    width: 390px;
+    margin-top: 44px;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Playlist-trending-songs {
+    display: flex;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.Playlist-trending-songs p {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.Playlist-trending-songs p span {
+    color: #EE10B0;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.play-button {
+    display: flex;
+    background: none;
+    border: none;
+    color: #EE10B0;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    top: 300px;
+}
+
+.play-icon {
+    padding: 16px;
+}
+
+/* top 20 of Bill Board*/
+
+.billBoardTop20 {
+    width: 99%;
+    margin-top: 20px;
+    margin-left:5px;
+    margin-right: 12px;
+}
+
+.table-bill-board {
+    color: white;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.table-bill-board th {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.highlight {
+    background: #1E1E1E;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.left-align span {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.Name-of-song {
+    font-weight: 600;
+}
+
+.border-left {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.border-right {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.main-font-size {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.space-row {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.ordinal-number {
+    font-size: 24px;
+    font-weight: 600;
+}

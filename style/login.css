@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #3b243d;
+}
+
+.login-container {
+    background-color: #4e314e;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.logo img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient( to right, rgba(238, 16, 176, 1) 10%, rgba(14, 158, 239, 0.92) 90%); 
+    background-clip: text;
+    color: transparent;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 90%;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #603b60;
+    color: white;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #c2b3c2;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+}
+
+.forgot-password {
+    display: block;
+    text-align: left;
+    color: #b1a2b1;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff00c8;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #ff4ddb;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.google-login, .facebook-login {
+    width: 45%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.google-login {
+    background-color: #db4437;
+}
+
+.facebook-login {
+    background-color: #4267b2;
+}
+
+.google-login:hover, .facebook-login:hover {
+    opacity: 0.8;
+}

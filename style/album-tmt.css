@@ -1,0 +1,163 @@
+*{  font-family: "Poppins",sans-serif;
+    margin:0; padding: 0}
+    
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+.album{
+    display: flex;
+    position: relative;
+    max-width: 1440px;
+    background-color: #412C3A;
+    gap: 62px;
+}
+
+.DashBoard-menu {
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 26.6px;
+}
+
+.Menu-part div,
+.Library-part div,
+.Play-list-part div,
+.General-part div {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Menu,
+.Library,
+.Play-list,
+.General {
+    font-size: 20px;
+    font-weight: 400;
+    color: #EE10B0;
+    opacity: 60%;
+}
+
+.Menu-part div i,
+.Library-part div i,
+.Play-list-part div i,
+.General-part div i {
+    width: 18.75px;
+    height: 18.75px;
+}
+.Menu-part div p,
+.Library-part div p,
+.Play-list-part div p,
+.General-part div p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+/* ------------------- Phần DashBoard-Lirary --------------------- */
+.DashBoard-Library {
+    color: #FFFFFF;
+    margin-top: 35px;
+    margin-left: 26.6px;
+}
+/* ------------------- Phần DashBoard-Playlist and Favorite --------------------- */
+.DashBoard-Playlist {
+    color: #FFFFFF;
+    margin-top: 35px;
+    margin-left: 26.6px;
+}
+.Add-playlist {
+    color: #0E9EEF !important;
+}
+/* ------------------- Phần Dashboard-general --------------------- */
+
+.DashBoard-general {
+    color: #FFFFFF;
+    margin-top: 35px;
+    margin-left: 26.6px;
+}
+.dashboard{
+    position: relative;
+    width: 266px;
+    height: 2513px;
+    background: #0E1920
+}
+
+.album-detail{
+    width: 1076px;
+    display:flex;
+    flex-direction: column;
+    flex: 9;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #1171E2 0%, rgba(82.76, 172.71, 213.56, 0.02) 98%, rgba(139.30, 203.18, 230.56, 0) 100%); 
+    border-radius: 10px;
+    position:relative;
+    /* flex: 1; */ 
+}
+
+.menu-album{
+    display:flex;
+    align-items: center;
+    padding: 30px 0 30px 20px;
+    
+}
+
+.menu-album img{
+    
+}
+
+.group-menu{
+    display: flex;
+    margin: 0;
+    right: 1;
+}
+
+.trendingmusic{
+    display: flex;
+}
+
+.playAll{
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 16px; 
+    display: inline-flex;
+}
+
+.playAll p{
+    color: #EE10B0; 
+    font-size: 24px; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+.play-img{
+    width: 60px; 
+    height: 60px; 
+    position: relative;
+}
+
+.playAll img{
+
+    width: 60px;
+    width: 60px; 
+    height: 60px; 
+    left: 0px; 
+    top: 0px; 
+}
+
+.billBoardTop20{
+    width: 1064px;
+    height: 1522px;
+    background: rgba(240, 248, 255, 0.253);
+}
+
+
+

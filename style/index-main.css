@@ -1,0 +1,276 @@
+.main {
+    flex-grow: 9;
+    background-color: #412C3A;
+}
+
+.Main-Header {
+    margin-top: 62px;
+    display: flex;
+}
+
+.Header-Search {
+    display: flex;
+    flex-grow: 1.5;
+    margin-left: 20px;
+    position: relative;
+}
+
+.Header-Search input {
+    width: 359px;
+    height: 38px;
+    padding-left: 35px;
+    border: none;
+    background-color: #656565;
+    border-radius: 10px;
+}
+
+.Header-Search input::placeholder {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Header-Search img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/* ------------------Phần Header-Menu------------------------- */
+.Header-Menu {
+    display: flex;
+    flex-grow: 4.5;
+    justify-content: space-around;
+    gap: 70px;
+}
+
+.Header-Menu p a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.Header-Login {
+    display: flex;
+    flex-grow: 4;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Header-Login button {
+    border-radius: 10px;
+    width: 119px;
+    height: 38px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button-login {
+    border: none;
+    background-color: #1E1E1E;
+}
+
+.button-login a {
+    text-decoration: none;
+    color: #EE10B0;
+}
+
+.button-signup {
+    border: 1.12px solid #FFFFFF;
+    box-shadow: 0 0 8px 3px #ff00ff;
+    background-color: #FF26C2;
+}
+
+.button-signup a {
+    color: #1E1E1E;
+    text-decoration: none;
+
+}
+
+.Banner {
+    width: 1300px;
+    height: 600px;
+    margin-left: 120px;
+    margin-top: 50px;
+
+}
+
+.Para {
+    max-width: 281.47px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Para-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+.btn-banner-1,
+.btn-banner-2 {
+    width: 127px;
+    height: 41px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-banner-1 {
+    border: 2px solid #FF00FF;
+    color: #FF00FF;
+    box-shadow: 0 0 10px #FF00FF, 0 0 20px #FF00FF;
+}
+
+.btn-banner-2 {
+    border: 2px solid #00FFFF;
+    color: #00FFFF;
+    box-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF;
+}
+
+/* Trending songs */
+.Trending-songs {
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.Trending-songs-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 50px;
+    color: #FFFFFF;
+}
+
+.highlight {
+    color: #ff00ff;
+}
+
+.song-list {
+    margin-top: 10px;
+}
+
+.song-row {
+    display: flex;
+    align-items: center;
+    background-color: #292929;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.song-rank {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+
+.song-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.song-info {
+    flex: 1.5;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.song-info h3 {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.song-info p {
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.song-date {
+    flex: 1.5;
+    text-align: center;
+    color: #c2c2c2;
+}
+
+.song-album {
+    flex: 3;
+    text-align: center;
+    color: #bfbfbf;
+}
+
+.song-time {
+    flex: 0.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #c2c2c2;
+}
+
+.heart {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #FF00FF;
+}
+
+/* Join our platform */
+.Join {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.Join-content {
+    max-width: 595px;
+}
+
+.Join-content h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Join-content p {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 40px;
+}
+
+.Join-button {
+   display: flex;
+   gap: 40px;
+}
+
+.Join-button button {
+    width: 225px;
+    height: 63px;
+    border-radius: 6.54px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.btn-sign-up {
+    border: 1.12px solid #FFFFFF;
+    box-shadow: 0 0 8px 3px #ff00ff;
+    background-color: #FF26C2;
+}
+
+.btn-login {
+    background-color: rgba(30, 30, 30, 1);
+    color: rgba(238, 16, 176, 1);
+    border: none;
+}

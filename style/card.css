@@ -1,0 +1,251 @@
+.card-display {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.weekly-song-title,
+.new-song-title,
+.Popular-artist-title,
+.Music-video-title,
+.top-album-title,
+.playlist-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 50px;
+    color: #FFFFFF;
+}
+
+.highlight {
+    color: #ff00ff;
+}
+
+.highlight-blue {
+    color: rgba(14, 158, 239, 1);
+}
+.card {
+    border: 0.5px solid  #1F1F1F;
+    width: 210px;
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: start;
+    margin-top: 30px;
+}
+
+.album-cover { 
+    width: 100%;
+    border-radius: 10px;  
+}
+
+.album-info {
+    margin-top: 10px;  
+}
+
+.music-content {
+    display: flex;
+    justify-content: space-between;
+}
+.album-info h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.album-info p {
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.music-icon {
+    font-size: 18px;
+    color: #ff00ff;
+}
+
+.new-song {
+    margin-top: 30px;
+}
+
+/* Popular Artist */
+.Popular-artist {
+    margin-top: 30px;
+}
+
+.Popular-card {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    margin-top: 40px;
+}
+
+.Popular-card p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+/* Music video  */
+.Music-video {
+    box-sizing: border-box ;
+    margin-top: 30px;
+}
+
+.Music-video-card-display {
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.music-card {
+    width: 370px;
+    height: 280px;
+    background-color: #3a2f44;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {  
+    display: flex;
+    background-color: #292929;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.card-content-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.card-content h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #a7a7a7;
+    margin-bottom: 10px;
+}
+
+.views {
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+/* Top album */
+.top-album {
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.top-album-display {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.album-card {
+    width: 200px;
+    background-color: #3a2f44;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.album-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.album-content {
+    background-color: #292929;
+    padding: 10px;
+    margin-top: 5px;
+}
+.album-content-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.album-content h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.album-content p {
+    font-size: 12px;
+    color: #a7a7a7;
+    margin-bottom: 8px;
+}
+
+.album-icon {
+    font-size: 14px;
+    color: #5cb3ff;
+    display: inline-block;
+}
+
+/* MODD Playlist */
+.playlist {
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.playlist-display {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.playlist-card {
+    width: 212px;
+    background-color: #3a2f44;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.playlist-content {
+    background-color: #292929;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playlist-content h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.playlist-content p {
+    font-size: 12px;
+    color: #a7a7a7;
+    margin-bottom: 8px;
+}
+
+.playlist-icon {
+    font-size: 14px;
+    color: rgba(238, 16, 176, 1);
+    display: inline-block;
+}
